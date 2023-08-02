@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+#home{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 1)), url(../images/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    min-height: 90vh;
+    z-index: -1;
+    color: #fff;
+  }
+  .box{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  #home  h1 {
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Caprasimo', cursive;
+  }
+
+  #typing-text {
+    display: inline-block;
+    /* margin-left: 30rem; */
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px;
+   align-self: center;
+    background-color: black;
+  }
+  
+  
+  
+
+  @media only screen and (max-width: 768px){
+    #home  h1 {
+      font-size: 30px;
+    }
+  
+    #typing-text {
+      font-size: 15px;
+    }
+
+  }
+  @media only screen and (max-width: 400px){
+    #home  h1 {
+      font-size: 30px;
+    }
+  
+    #typing-text {
+      font-size: 15px;
+    }
+
+  }
+  
+  
+
+  
+  
+  
+  
